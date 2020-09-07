@@ -1,0 +1,66 @@
+.App {
+  height: 100%;
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+}
+.toolbar-cust {
+  display: flex;
+  justify-content: space-between;
+}
+.auth_title {
+  color: #3f51b5;
+  margin-bottom: 14px;
+}
+.form_auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #3f51b5;
+  width: 400px;
+  margin: 0 auto;
+  padding: 22px 0;
+}
+.input_auth {
+  width: 300px;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #3f51b5;
+  border-radius: 5px;
+}
+.error-div {
+  color: red;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.nav {
+  padding-top: 15px;
+  padding-left: 5px;
+}
+@media (min-width: 320px) {
+  .form_auth {
+    width: 95%;
+  }
+  .input_auth {
+    width: 90%;
+  }
+}
+@media (min-width: 700px) {
+  .form_auth {
+    width: 400px;
+  }
+  .input_auth {
+    width: 300px;
+  }
+}
